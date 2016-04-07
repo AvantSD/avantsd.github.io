@@ -15,6 +15,16 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/*
+.img-technologies {
+    width: 280px;
+    height: 250px;
+}
+*/
+
+.contrasted-title {
+    display: inline-block !important;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -200,6 +210,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    width: 30%;
 }
 
 .img-portfolio {

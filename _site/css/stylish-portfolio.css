@@ -15,50 +15,15 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-.main-content {
-/*    width: 50%;*/
-    height: 50%;
-}
-
-.bg-secundary {
-    background-color: ##999999;
-}
-
-.bg-primary {
-    background-color: #11A4D8;
-}
-
-.side-design-arrow {
-    float: left;
-    position: absolute;
-
-/*    background-color: #11A4D8;*/
-
-    /*width: 0; 
-    /*width: 0; 
-    height: 0; */
-    width: 50%; 
-    height: 100%;
-    border-top: 0 solid transparent;
-    border-bottom: 0 solid transparent;    
-    border-left: 150px solid #11A4D8;
-}
 /*
-@media(max-height: 960px) {
-    .side-design-arrow {
-        border-top: 200px solid transparent;
-        border-bottom: 200px solid transparent;    
-        border-left: 60px solid #11A4D8;
-    }
+.img-technologies {
+    width: 280px;
+    height: 250px;
 }
 */
-@media(max-width:768px) {
-    .side-design-arrow {
-        border-top: 0 solid transparent;
-        border-bottom: 0 solid transparent;    
-        border-left: 80px solid #11A4D8;
-    }
+
+.contrasted-title {
+    display: inline-block !important;
 }
 
 .text-vertical-center {
@@ -245,6 +210,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    width: 30%;
 }
 
 .img-portfolio {
