@@ -15,12 +15,12 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-/*
-.img-technologies {
-    width: 280px;
-    height: 250px;
+
+@media(max-width:375px) {
+    .logo {
+        width: 300px;
+    }
 }
-*/
 
 .contrasted-title {
     display: inline-block !important;
@@ -209,6 +209,7 @@ hr.small {
 }
 
 .portfolio-item {
+    display: inline-block !important;
     margin-bottom: 30px;
     width: 30%;
 }
